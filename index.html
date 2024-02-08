@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function search(event) {
+            event.preventDefault();
+            window.location.href = "details.html";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main_div search_div ">
+        
+        <img src="/Images/LOGO.png" class="logo" alt="">
+
+        <form action="" class="form">
+            <input type="text" placeholder="Type your name here" required>
+            <button onclick="search()" type="submit" class="search_button">SEARCH</button>
+            <!-- <button onclick="page2.html" class="button">Search</button> -->
+        </form>
+    </div>
+</body>
+
+</html>

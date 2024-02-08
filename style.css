@@ -1,0 +1,100 @@
+body{
+    position: relative;
+    background-image: url('Images/bg3.png');
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    z-index: -1;
+}
+
+
+/* MAIN DIV */
+.main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+
+.search_div {
+    padding-top: 5%;
+}
+
+.logo{
+    width: 9%;
+    height: 28%;
+    margin: 2% 3% 2% 8%;
+}
+
+/* PAGE 1 */
+
+/* FORM TAG */
+.form{
+    display: flex;
+    width: 40%;
+    margin-top: 4%;
+}
+
+/* INPUT TAG */
+.form input{
+    height:30px;
+    width: 100%;
+    margin-right:3% ;
+    padding: 2%;
+    font-size: 20px;
+}
+
+/* BUTTON TAG */
+.search_button{
+    color: white;
+    background-color: rgb(42, 133, 206);
+    border-color:rgb(42, 133, 206);
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-left: 3%;
+    width: 40%;
+    height: 55px;
+    font-size: 20px;
+}
+
+/* PAGE 2 */
+
+/* TABLE AND INPUT TAGS */
+th{
+    padding: 1%;
+    padding-right: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+.input_tag{
+    min-width: 500px;
+    height: 25px;
+}
+
+/* BUTTON TAG */
+.submit_button{
+    color: white;
+    background-color: rgb(42, 133, 206);
+    border-color:rgb(42, 133, 206);
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-left: 3%;
+    width: 18%;
+    height:40px;
+    font-size: 18px;
+    margin: 3% 0% 0% 45%;
+}
