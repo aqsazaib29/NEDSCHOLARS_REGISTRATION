@@ -74,12 +74,29 @@ body::before {
 /* PAGE 2 */
 
 /* TABLE AND INPUT TAGS */
+
+.results_table{
+    
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid black;
+}
+
 th{
-    padding: 1%;
-    padding-right: 50px;
+    padding: 1% 50px 1% 80px;
     font-size: 20px;
     text-align: left;
+    border: 2px solid red;
 }
+
+.result_div{
+    
+}
+
+
+
+
+/* PAGE 3 */
 .input_tag{
     min-width: 500px;
     height: 25px;
